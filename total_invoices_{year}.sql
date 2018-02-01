@@ -1,0 +1,3 @@
+SELECT COUNT(InvoiceId)
+FROM Invoice I
+WHERE I.InvoiceDate BETWEEN "2009-01-01" AND "2009-12-31"
